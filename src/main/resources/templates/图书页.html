@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图书页</title>
+    <style>
+        body{background-color: bisque;}
+        h1{text-align: center;}
+        th {
+            width: 240px;
+            height: 30px
+        }
+        .col1{
+            background: lightblue;
+        }
+        .col2{
+            background: blanchedalmond;
+        }
+        button{align-content: center;}
+    </style>
+</head>
+<body>
+    <h1 >图书列表</h1>
+    <table>
+        <col span="1" class="col2">
+        <col span="5" class="col1">
+        <tr id = "a1">
+            <th ><img src="../图片1.jpg" width = "100" alt="兔子坡"></th>
+            <th >《兔子坡》</th>
+            <th >作者:罗伯特·罗素</th>
+            <th>出版社1</th>
+            <th >出版日期:y年y月</th>
+            <th >余量:100</th>
+        </tr>
+        <tr id = "a2">
+            <th><img src="../图片2.jpg" width = "100" alt="我们的秘密"></th>
+            <th >《我们的秘密》</th>
+            <th >作者:阿尔瓦伊</th>
+            <th>出版社2</th>
+            <th >出版日期:x年x月</th>
+            <th >余量:100</th>
+        </tr>
+    </table>
+<button type="button" onclick="window.location.href='/lib/load'">进入添加</button>
+</body>
+</html>

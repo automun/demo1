@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <style>
+        #a1{
+            width:30%;
+			height:25%;
+			top:20%;
+			left:40%;
+			position:fixed;
+        }
+        h1{text-align: center;}
+        body{background-color: bisque;}
+    </style>
+</head>
+<body>
+    <h1>
+        图书管理员登录
+    </h1>
+    <div id = "a1">
+        <form method="post" action="/lib/check">
+            用户  : <input name = "username" type="text" ><br>
+            密码  :  <input name = "password" type="password"><br>
+            <br>
+           <button type="submit">提交</button>
+         </form>
+    </div>
+</body>
+</html>
